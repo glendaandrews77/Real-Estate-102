@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+header>
+    <div class="logo">Your Logo</div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Properties</a></li>
+            <li><a href="#">Tips</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+main>
+    <section class="featured-properties">
+        <!-- Featured property listings go here -->
+    </section>
+
+    <section class="recent-posts">
+        <!-- Recent blog posts go here -->
+    </section>
+
+    <section class="blog-entries">
+        <!-- More blog entries go here -->
+    </section>
+</main>
+
+
+<body>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <!-- Your content will go here -->
+</body>
+</html>
