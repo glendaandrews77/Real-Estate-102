@@ -176,4 +176,18 @@ height: 10vh;
 .btn-details{
     background-color: green;
 }
-
+/*blog*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: arial;
+}
+img{
+    max-width:100%;
+}
+a{
+    text-decoration: none;
+    color:black;
+}

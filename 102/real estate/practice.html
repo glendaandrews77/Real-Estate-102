@@ -3,101 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Document</title>    
     <style>
         .flex-container{
             display: flex;
-            flex-direction: row;
-            justify-content: center;
+            flex-direction:row; 
+            justify-content:center;
             align-items: center;
             height: 300px;
-            background-color: lightgray
+            background-color: lightgray;
         }
         .flex-child{
             background-color: green;
-            border: 1px soilid yellowgreen;
+            border: 1px solid yellowgreen;
             padding: 5px;
         }
+        table,th,td{
+            font-family: Arial, Helvetica, sans-serif;
+            border-bottom: 1px solid rgb(56, 64, 95);
+            border-collapse: collapse;
+
+        }
+        th,td{
+            color:black;
+            background-color: cadetblue;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .error{
+            background-color:blue;
+            color:blanchedalmond;
+        }
+
     </style>
+</head>
+<body>
+    <h2>Flexbox</h2>
+    <div class="flex-container">
         <div class="flex-child">
             A
         </div>
         <div class="flex-child">
-            B  
-        </div>
+            B
+            </div>
         <div class="flex-child">
             C
         </div>
     </div>
 
     <h2>Tables</h2>
+
     <table>
         <thead>
             <tr>
-                <th>Header 1</th>
-                <th>GPA</th>
-                <th>header 2</th>
-                <th>Header 3</th>
-                <th>Header 4</th>
+                <th>First Name</th>
+                <th>Last Name</th> 
+                <th>Phone</th>
+                <th>Email</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Data 1</td>
-                <td class="error">1.0</td>
-                <td>Data 2</td>
-                <td>Data 3</td>
-                <td>Data 4</td>
+                <td>Sara</td>
+                <td>Lee</td>
+                <td>808-4222-222</td> 
+                <td>saralee@gmail.com</td>
             </tr>
             <tr>
-            <td>Data 5</td>
-            <td>Data 6</td>
-            <td>Data 7</td>
-            <td>Data 7</td>
+                <td>Terry</td>
+                <td>Jones</td>
+                <td>757-23-5867</td> 
+                <td>terryjones@gmail.com</td>
             </tr>
-
-
-
+            <tr>
+                <td>Rich</td>
+                <td>Sims</td>
+                <td>987-5672</td>
+                <td>richsims@gmail.com</td>
+            </tr>        
         </tbody>
-    
-    
-    
-    
-    
-
-    
+    </table>
 
 
 
 
 
-
-
-
-    table,th,td{
-        font-family: arial;
-        border: 1px; 1px solid: black
-        border-collapse: collapse;
-    }
-    th,td{
-        padding:10px;
-        texxt-align: center;
-    }
-    .error{
-        background-color: rgb
-        color:
-    }
+    <main>
 
 
 
 
-
-
-
-
-
-
+    </main>  
+    <footer>
+    </footer>
+</body>
+</html>
 
 
 
